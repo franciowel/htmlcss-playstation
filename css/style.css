@@ -1,0 +1,58 @@
+/*******
+    LAYOUT - MOBILE FIRST 
+    BREAKPOINTS
+    XS:     < 576 cont: 100%
+    SM:     > 576 cont: 540px
+    MD:     > 768 cont: 720px
+    LG:     > 992 cont: 960px 
+*******/
+
+/* COMMONS */
+
+/* HEADER */
+.ms_brand_head{
+    height: 35px;
+    background-color: black;
+    width: 100%;
+}
+
+.ms_head_contain{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ms_brand_head img{
+    height: 40%;
+}
+
+.ms_nav_header{
+    height: 85px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.ms_logo_head{
+    display: inline-block;
+    width: 25%;
+}
+
+.ms_left_menu{
+    display: inline-block;
+}
+
+.ms_left_menu ul{
+    display: inline-block;
+}
+
+.ms_nav_header ul{
+    list-style: none;
+    color: black;
+    display: flex
+}
+
+.ms_nav_header nav{
+    text-align: right;
+}
+
