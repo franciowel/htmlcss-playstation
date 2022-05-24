@@ -73,6 +73,7 @@ body{
 .ms_rightbar_content ul:first-child li i{
     font-size: 1.5rem;
     color: black;
+    padding-top: 0.5rem;
 }
 
 .ms_nav_header nav{
@@ -140,6 +141,15 @@ body{
 .ms_focused img{
     border: 2px solid black;
     padding: 0.1rem;
+}
+
+/* PLAYSTATION 5 CONTENT */
+.ms_playfive_bundle{
+    padding: 2.5rem 0;
+}
+
+.plafive_text{
+    text-align: center;
 }
 
 /* RESPONSIVE QUERY */
@@ -223,11 +233,14 @@ body{
         padding-left: 1rem;
     }
 
+    .ms_right_menu li .ms_btn_log{
+        color: white;
+    }
+
     .ms_btn_log{
         background-color: black;
         padding: 0.5rem 1rem;
         border-radius: 25px;
-        color: white;
         margin: 0 0.5rem;
     }
 
