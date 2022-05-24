@@ -23,6 +23,10 @@ body{
     width: 100%;
 }
 
+.ms_container_header{
+    padding: 0 1rem;
+}
+
 .ms_head_contain{
     height: 100%;
     display: flex;
@@ -44,17 +48,30 @@ body{
     width: 50px;
 }
 
-.ms_left_menu{
-    width: calc(100% - 70px);
-    display: inline-block;
-}
-
 .ms_left_menu ul{
     display: inline-block;
 }
 
+.ms_leftbar_content{
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+
 .ms_nav_header ul{
     list-style: none;
+    color: black;
+}
+
+.ms_rightbar_content{
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ms_rightbar_content ul:first-child li i{
+    font-size: 1.5rem;
     color: black;
 }
 
@@ -64,6 +81,20 @@ body{
 
 /* RESPONSIVE QUERY */
 
+/* XSMALL SCREEN */
+@media screen and (max-width: 576px) {
+
+    .ms_left_menu{
+        display: none;
+    }
+
+    .ms_right_menu{
+        display: none;
+    }
+    
+}
+
+/* LARGE SCREEN */
 @media screen and (min-width: 992px) {
     .ms_container_header{
         max-width: 960px;
