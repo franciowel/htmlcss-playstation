@@ -8,6 +8,13 @@
 *******/
 
 /* COMMONS */
+header{
+    font-family: Helvetica, arial, sans-serif;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
 
 /* HEADER */
 .ms_brand_head{
@@ -30,15 +37,15 @@
 .ms_nav_header{
     height: 85px;
     width: 100%;
-    background-color: aqua;
 }
 
 .ms_logo_head{
     display: inline-block;
-    width: 25%;
+    width: 50px;
 }
 
 .ms_left_menu{
+    width: calc(100% - 70px);
     display: inline-block;
 }
 
@@ -49,10 +56,86 @@
 .ms_nav_header ul{
     list-style: none;
     color: black;
-    display: flex
 }
 
 .ms_nav_header nav{
     text-align: right;
 }
 
+/* RESPONSIVE QUERY */
+
+@media screen and (min-width: 992px) {
+    .ms_container_header{
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 0.5rem;
+    }
+
+    .ms_nav_header ul{
+        display: flex;
+        font-size: 1rem;
+        margin: 0;
+        padding-left: 1rem;
+    }
+
+    .ms_leftbar_content{
+        height: 85px;
+        display: flex;
+        align-items: center;
+    }
+
+    .ms_left_menu{
+        width: 100%;
+    }
+
+    .ms_left_menu li{
+        padding-right: 1rem;
+    }
+
+    .ms_left_menu li a{
+        text-decoration: none;
+        color: black;
+        padding-right: 0.2rem;
+    }
+
+    .ms_left_menu li img,
+    .ms_right_menu li img{
+        color: black;
+        width: 0.6rem;
+    }
+
+    .ms_right_menu{
+        width: 100%;
+    }
+
+    .ms_rightbar_content{
+        height: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .ms_right_menu li a{
+        text-decoration: none;
+        color: inherit;
+        padding-left: 0.2rem;
+    }
+
+    .ms_right_menu ul li:last-child img{
+        width: 1.6rem;
+    }
+
+    .ms_right_menu li{
+        padding-left: 1rem;
+    }
+
+    .ms_btn_log{
+        background-color: black;
+        padding: 0.5rem 1rem;
+        border-radius: 25px;
+        color: white;
+        margin: 0 0.5rem;
+    }
+
+    
+}
