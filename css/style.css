@@ -340,6 +340,24 @@ header{
     border-radius: 25px;
 }
 
+/* SCONTI PLAYSTATION STORE SEZIONE */
+.ms_new_sales{
+    padding: 2.5rem 0;
+}
+
+.ms_sales_text{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.ms_sales_text p{
+    padding-top: 1.2rem;
+}
+
+.ms_sales_content img{
+    width: 100%;
+}
+
 /* RESPONSIVE QUERY */
 
 /* XSMALL SCREEN */
