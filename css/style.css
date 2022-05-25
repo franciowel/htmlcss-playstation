@@ -207,12 +207,53 @@ header{
     display: none;
 }
 
-.ms_lined_after{
+.ms_lined{
     border-bottom: 2px solid #0f7ad0;
     padding: 1rem;
     opacity: 100%;
 }
 
+/* BANNER-SPOT */
+.ms_banner_spot{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.spot_game_img{
+    width: 40%;
+    padding-top: 12rem;
+}
+
+.spot_game_img img{
+    width: 100%;
+}
+
+.ms_banner_content{
+    color: white;
+    width: 100%;
+}
+
+.ms_banner_content h2{
+    font-size: 2.4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}    
+
+.ms_banner_content p{
+    padding-bottom: 1rem;
+}
+
+.ms_banner_btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+    margin-bottom: 1.2rem;
+    color: white;
+    background-color: #cd3d0f;
+    border-radius: 30px;
+}
 
 /* RESPONSIVE QUERY */
 
@@ -318,7 +359,7 @@ header{
 
     /* JUMBOTRON */
 
-    .ms_jumbo_content{
+    .ms_banner_content{
         max-width: 45%;
     }
 
