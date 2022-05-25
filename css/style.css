@@ -302,14 +302,49 @@ header{
     background-color: #0f7ad0;
     padding: 0.5rem 0.5rem;
     border-radius: 25px;
-    text-align: left;
+}
+
+/* SEZIONE PLAYSTATION PLUS */
+.ms_promo_plus{
+    background-color: #bebcbb;
+}
+
+.ms_plus_content{
+    padding: 2rem 0;
+}
+
+.ms_plus_content img{
+    width: 70%;
+    padding: 1rem;
+}
+
+.ms_plus_content p{
+    padding: 1rem 0;
+}
+
+.ms_plus_banner{
+    height: 100%;
+}
+
+.ms_plus_banner img{
+    width: 100%;
+    height: 100%;
+}
+
+    /* BTN */
+.ms_plus_content a{
+    text-decoration: none;
+    background-color: #d9dadc;
+    color: #0f7ad0;
+    padding: 0.5rem 0.7rem;
+    border-radius: 25px;
 }
 
 /* RESPONSIVE QUERY */
 
 /* XSMALL SCREEN */
 @media screen and (max-width: 576px) {
-
+    /* HEADER */
     .ms_left_menu{
         display: none;
     }
@@ -318,6 +353,14 @@ header{
         display: none;
     }
     
+    /* PLAYSTATION PLUS BANNER */
+    .ms_plus_content{
+        width: 100%;
+    }
+
+    .ms_d_none{
+        display: none;
+    }
 }
 
 /* MEDIUM SCREEN */
