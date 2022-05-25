@@ -276,6 +276,35 @@ header{
     border-radius: 35px;
 }
 
+/* SEZIONE PLAYSTATION 4 */
+.ms_play_four{
+    padding: 3.7rem 0;
+}
+
+.ms_playfour_text{
+    text-align: center;
+}
+
+.ms_playfour_text h2 span{
+    font-size: 0.8rem;
+    vertical-align: super;
+}
+
+.ms_playfour_bundle img{
+    width: 100%;
+    padding: 1.2rem;
+}
+
+    /* BTN */
+.ms_playfour_bundle a{
+    text-decoration: none;
+    color: white;
+    background-color: #0f7ad0;
+    padding: 0.5rem 0.5rem;
+    border-radius: 25px;
+    text-align: left;
+}
+
 /* RESPONSIVE QUERY */
 
 /* XSMALL SCREEN */
