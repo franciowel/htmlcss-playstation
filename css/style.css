@@ -373,6 +373,20 @@ header{
     width: 100%;
 }
 
+/* SEZIONE LINK SOCIAL MEDIA */
+.ms_social_link{
+    padding: 2.5rem 0;
+}
+
+.ms_social_link h2{
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.ms_social_logo img{
+    width: 100%;
+}
+
 /* RESPONSIVE QUERY */
 
 /* XSMALL SCREEN */
