@@ -304,7 +304,7 @@ header{
     border-radius: 25px;
 }
 
-/* SEZIONE PLAYSTATION PLUS */
+/* SEZIONE PLAYSTATION PLUS E PLAY NOW */
 .ms_promo_plus{
     background-color: #bebcbb;
 }
@@ -331,11 +331,26 @@ header{
     height: 100%;
 }
 
-    /* BTN */
-.ms_plus_content a{
+    /*PLUS BTN */
+.ms_plus_btn{
     text-decoration: none;
     background-color: #d9dadc;
     color: #0f7ad0;
+    padding: 0.5rem 0.7rem;
+    border-radius: 25px;
+}
+
+/* BACKGROUND PALYSTATION NOW */
+.ms_promo_now{
+    background-color: #161c3b;
+    color: white;
+}
+
+    /* PLAYNOW BTN */
+.ms_now_btn{
+    text-decoration: none;
+    background-color: white;
+    color: black;
     padding: 0.5rem 0.7rem;
     border-radius: 25px;
 }
