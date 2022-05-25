@@ -244,7 +244,7 @@ header{
 .ms_banner_content p{
     padding-bottom: 1rem;
 }
-
+    /* BTN */
 .ms_banner_btn{
     display: inline-block;
     text-decoration: none;
@@ -253,6 +253,27 @@ header{
     color: white;
     background-color: #cd3d0f;
     border-radius: 30px;
+}
+
+/* NUOVE USCITE */
+.ms_new_game{
+    background-color: #1f1f1f;
+    color: white;
+    padding: 3.7rem 0;
+}
+
+.ms_newgame_text{
+    padding-bottom: 1rem;
+}
+
+.ms_newgame_text p{
+    font-size: 1.5rem;
+}
+
+.ms_newgame_cont img{
+    width: 100%;
+    padding: 0.2rem;
+    border-radius: 35px;
 }
 
 /* RESPONSIVE QUERY */
