@@ -134,11 +134,11 @@ main{
 
 /* ANTEPRIME */
 .ms_anteprime{
-    padding: 2rem 0;
+    padding: 4.2rem 0;
 }
 
-.ms_anteprime_content{
-    padding-bottom: 1rem;
+.ms_anteprime_content:hover{
+    animation: ;
 }
 
 .ms_anteprime_content img{
@@ -203,8 +203,22 @@ main{
 }
 
 /* BUNDLE PS5 */
-.ms_playfive_other_cont{
+.ms_playfive_other{
+    padding-bottom: 5rem;
+}
+
+.ms_playfive_other_cont img{
     opacity: 60%;
+}
+
+.ms_playfive_hover:hover{
+    border-bottom: 2px solid #0f7ad0;
+    transition: all 1s;
+}
+
+.ms_playfive_hover:hover img{
+    opacity: 100%;
+    transition: all 1s;
 }
 
 .ms_playfive_other_cont img{
@@ -218,6 +232,9 @@ main{
 .ms_lined{
     border-bottom: 2px solid #0f7ad0;
     padding: 1rem;
+}
+
+.ms_lined .ms_playfive_other_cont img{
     opacity: 100%;
 }
 
@@ -563,3 +580,4 @@ footer{
 
     
 }
+
