@@ -14,6 +14,12 @@ body{
 
 header{
     font-family: Helvetica, arial, sans-serif;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 /* HEADER */
@@ -81,7 +87,9 @@ header{
 }
 
 /* MAIN */
-
+main{
+    padding-top: 7.5rem;
+}
 /* JUMBO SECTION SPOT */
 .ms_jumbo_spot{
     background-image: url(../img/jumbo-bg.png);
@@ -391,9 +399,10 @@ header{
 footer{
     background-color: #00439c;
     color: white;
-    padding: 2.5rem 0;
+    padding: 3.5rem 0;
 }
 
+    /* TOP FOOTER */
 .ms_foot_logo{
     padding-bottom: 2rem;
     width: 85px;
@@ -413,6 +422,28 @@ footer{
     color: white;
     font-size: 0.9rem;
     line-height: 32px;
+}
+
+    /* BOTTOM FOOTER */
+.ms_footer_endtext{
+    padding-top: 1rem;
+}
+
+.ms_footer_endtext{
+    padding-top: 1rem;
+}
+
+.ms_footer_endtext img{
+    width: 120px;
+}
+
+.ms_footer_endtext p{
+    padding-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.ms_footer_endtext p a{
+    color: white;
 }
 
 /* RESPONSIVE QUERY */
@@ -503,7 +534,6 @@ footer{
     .ms_right_menu li a{
         text-decoration: none;
         color: inherit;
-        padding-left: 0.2rem;
     }
 
     .ms_right_menu ul li:last-child img{
@@ -520,7 +550,7 @@ footer{
 
     .ms_btn_log{
         background-color: black;
-        padding: 0.5rem 0.5rem;
+        padding: 0.5rem 0.7rem;
         border-radius: 25px;
         margin: 0 0.5rem;
     }
