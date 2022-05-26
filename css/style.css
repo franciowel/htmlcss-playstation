@@ -387,6 +387,34 @@ header{
     width: 100%;
 }
 
+/* FOOTER */
+footer{
+    background-color: #00439c;
+    color: white;
+    padding: 2.5rem 0;
+}
+
+.ms_foot_logo{
+    padding-bottom: 2rem;
+    width: 85px;
+}
+
+.ms_footer_brand p img{
+    width: 35px;
+    padding-right: 10px;
+}
+
+.ms_footer_menu ul{
+    list-style: none;
+}
+
+.ms_footer_menu ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 32px;
+}
+
 /* RESPONSIVE QUERY */
 
 /* XSMALL SCREEN */
