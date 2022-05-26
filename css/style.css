@@ -525,6 +525,11 @@ footer{
         padding-right: 1rem;
     }
 
+    .ms_left_menu ul li a:hover{
+        color: #bebcbb;
+        transition: all 0.5s;
+    }
+
     .ms_left_menu li a{
         text-decoration: none;
         color: black;
@@ -551,6 +556,11 @@ footer{
     .ms_right_menu li a{
         text-decoration: none;
         color: inherit;
+    }
+
+    .ms_right_over a:hover{
+        transition: all 0.5s;
+        color: #bebcbb;
     }
 
     .ms_right_menu ul li:last-child img{
